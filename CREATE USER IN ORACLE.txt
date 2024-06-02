@@ -1,0 +1,9 @@
+sqlplus
+
+cnn / as sysdba
+
+ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+
+CREATE USER OBBUsuarios IDENTIFIED BY password1;
+
+GRANT DBA TO OBBUsuarios;
